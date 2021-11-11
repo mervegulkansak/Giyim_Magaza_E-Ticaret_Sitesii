@@ -1,0 +1,42 @@
+.giris-ekrani{
+	
+	width: 280px;
+	top: 50%;
+	left: 50%
+	transform: translate(-50%, -50%);
+	color: black;
+}
+.giris-ekrani h1{
+	color: black;
+	float: left;
+	font-size: 40px;
+	border-bottom: 5px solid green;
+	margin-bottom: 50px;
+	padding: 13px 0;
+
+}
+.textbox{
+	color: black;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	border-bottom: 1px solid black;
+
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	color: black;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+	width: 100%;
+	float: left;
+	margin: 0 10;
+	text-transform: uppercase;
+}

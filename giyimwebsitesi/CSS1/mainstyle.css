@@ -1,0 +1,230 @@
+  #yazi{
+    
+    font-size: bold;
+    color:#7b4746 ;
+    font-family: Agency FB;
+    font-size: 40px;
+  
+    text-indent: 20px;
+  }
+  #yazi1{
+    font-family: helvetica;
+    font-size: 15px;
+    color: #c8bfbf;
+    word-spacing: 0.2cm;
+
+  }
+
+  #yazi2 {
+    font-family: Agency FB;
+    font-size: 23px;
+    color: white;  
+
+  }
+
+  .linkver{
+      text-decoration: none;
+      color: black;
+      
+
+    }
+
+  .ortala{
+    max-width:100px;
+    margin:auto;
+    margin-top:100px;
+  }
+  .SolMenu {
+      height: 100%;
+      width: 0;
+    position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #2d2929;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+
+  .SolMenu a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #999696;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .SolMenu a:hover {
+      color:white;
+  }
+
+  .SolMenu .btnkapat {
+    position: absolute;
+    top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+
+  #main {
+      transition: margin-left .5s;
+      padding: 16px;
+  }
+
+@media screen and (max-height: 450px) {
+  .SolMenu {padding-top: 15px;}
+  .SolMenu a {font-size: 18px;}
+}
+.search{
+  
+  background-color:white;
+  border:0;
+  border-radius:5px;
+  width:150px;
+  padding:3px 20px;
+  background-color:white;
+  color: black;
+}
+
+
+#btnScrollToTop{
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #0b0b0b;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+#btnScrollToTop:active{
+  background: #1d1c1c
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    padding:15px;
+    background-color: #000;
+}
+footer p{
+  font-size: 18px;
+  color: white;
+}
+.cart-count{
+  position: relative;
+  font-size: 10px;
+  top: -12px;
+  left: -7px;
+}
+.color-danger{
+  color: #d9534f;
+}
+.item-count-input{
+  width: 50px;
+  text-align: center;
+  border-radius: 7px;
+  border:none;
+}
+.input-form{
+  width: 70px;
+  text-align: center;
+  border-radius: 7px;
+  border:none;
+}
+.btndanger{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border:none;
+  background-color: #c73235;
+  color: white;
+  box-shadow: 0 0 7px #b74d4e;
+
+}
+.btnsuccess{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #418a41;
+  color: white;
+   box-shadow: 0 0 7px #69a269;
+}
+
+
+td{
+  vertical-align: middle !important;
+}
+tfoot th{
+  padding: 20px !important;
+  background-color: #dfdfdf !important;
+}
+
+#table{
+  box-shadow: 0 0 8px rgba(5,5,5,.3);
+}
+#btnonay{
+background-color: #7b4746; 
+color: white; 
+position: relative; 
+top: 10px;
+}
+
+.input-icons i {
+            position: absolute;
+        }
+          
+        
+          
+        .icon {
+            padding: 10px;
+            min-width: 50px;
+            text-align: center;
+        }
+          
+        .input-field {
+            text-align: center;
+            padding: 10px;
+            
+        }
+          
+       
+
+
+
+@media screen and (max-width: 450px){
+  .table{
+    width: 80px;
+  }
+  .table b{
+    font-size: 20px;
+  }
+ 
+
+ #btnScrollToTop{
+  position: fixed;
+  right: 50px;
+  bottom: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+ }
+ #btnScrollToTop i{
+  width: 15px;
+
+ }
+
+}
